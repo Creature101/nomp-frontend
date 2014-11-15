@@ -1,0 +1,50 @@
+{
+    "time": 1411476291,
+    "global": {
+        "workers": 14,
+        "hashrate": 0
+    },
+    "algos": {
+        "neoscrypt": {
+            "workers": 4,
+            "hashrate": 149237.93159946232,
+            "hashrateString": "145.74 KH"
+
+        },
+        "scrypt": {
+            "workers": 4,
+            "hashrate": 19214284.908660877,
+            "hashrateString": "18.32 MH"
+        },
+        "blake": {
+            "workers": 6,
+            "hashrate": 77492445071.17314,
+            "hashrateString": "72.17 GH"
+
+        }
+    },
+    "pools": {
+        "phoenixcoin": {
+            "name": "phoenixcoin",
+            "symbol": "PXC",
+            "algorithm": "neoscrypt",
+            "poolStats": {
+                "validShares": "718509",
+                "validBlocks": "250",
+                "invalidShares": "1998",
+                "totalPaid": "11973.38080183000004109"
+            },
+            "blocks": { "pending": 5, "confirmed": 243, "orphaned": 2 },
+            "workers": {
+                "Pkb2fPfbVSTbyQUY9FGNzNpPLHKfWPUVkT": { "shares": 161.73677824, "invalidshares": 1.46804888, "hashrateString": "34.50 KH" },
+                "PhEbNjV2ctaP3SYTtg1AWCvWcGpgPr3wz1": { "shares": 350.60684386000025, "invalidshares": 0, "hashrateString": "74.80 KH" },
+                "PnWZMbCuYNW9511zAwXWgoox3bThdubW7i": { "shares": 123.21777750000004, "invalidshares": 0, "hashrateString": "26.29 KH" }, 
+                "Pf3pGopek2p6YamizQ1BJWmgifXE8vZmKn": { "shares": 47.59563592000001, "invalidshares": 0, "hashrateString": "10.15 KH" } },
+            "hashrate": 149237.93159946232,
+            "workerCount": 4,
+            "hashrateString": "145.74 KH"
+        },
+        "popcoin": { "name": "popcoin", "symbol": "POP", "algorithm": "scrypt", "poolStats": { "validShares": "184825", "validBlocks": "5128", "invalidShares": "79218", "totalPaid": "486665.6884761099995842" }, "blocks": { "pending": 48, "confirmed": 4996, "orphaned": 83 }, "workers": { "QYSFjZVQhGdDLeg5Tav3YD6ivmm61nssuX": { "shares": 2768, "invalidshares": 4520.2631579, "hashrateString": "590.51 KH" }, "QboH8H2uqcv7Hh1EvidBksCPjX9KFwqMPq": { "shares": 5476.499527560001, "invalidshares": 0, "hashrateString": "1.14 MH" } }, "hashrate": 1801038.403460574, "workerCount": 2, "hashrateString": "1.72 MH" },
+        "saffroncoin": { "name": "saffroncoin", "symbol": "SFR", "algorithm": "blake", "poolStats": { "validShares": "1899131", "validBlocks": "1355", "invalidShares": "8902", "totalPaid": "41856.64222864000006297" }, "blocks": { "pending": 16, "confirmed": 1328, "orphaned": 9 }, "workers": { "SMgHch38yo59zWKJbr53MbVgeit8RUFUX5": { "shares": 4140.585241650005, "invalidshares": 18.80235607, "hashrateString": "55.21 GH" }, "SQCPSUeMQuQRpVy5RZTrxVoX36mU2gF9Ar": { "shares": 849.3479280300003, "invalidshares": 0, "hashrateString": "11.32 GH" }, "SWMrDZgTm3jqgTmiPCk7LJ99LECd4KV4hF": { "shares": 150.12054418999998, "invalidshares": 0, "hashrateString": "2.00 GH" }, "SaYRgrfCxGbjcyyuY78cd7bBn5kXysCEvx": { "shares": 43.57320809, "invalidshares": 0, "hashrateString": "594.92 MH" }, "SYGALE1ehxf2gYPDttkBck6GDK7X4wcmHv": { "shares": 128.97751270999996, "invalidshares": 0, "hashrateString": "1.72 GH" }, "STisTjrpLH5qHH9q5XBiHgYEMNzRcAU57Y": { "shares": 100.1803246, "invalidshares": 0, "hashrateString": "1.34 GH" } }, "hashrate": 77492445071.17314, "workerCount": 6, "hashrateString": "72.17 GH" },
+        "ufocoin": { "name": "ufocoin", "symbol": "UFO", "algorithm": "scrypt", "poolStats": { "validShares": "821225", "validBlocks": "5990", "invalidShares": "9732", "totalPaid": "29367775.63234730999647581" }, "blocks": { "pending": 15, "confirmed": 5963, "orphaned": 0 }, "workers": { "CCVdzgoYMXvDPM1MtBokuQFn6K8WA3QnHN": { "shares": 76800, "invalidshares": 0, "hashrateString": "16.00 MH" }, "Bx3ZEwX9ej5772H7MVvXx5apWXmxaUCktq": { "shares": 2911.5165948500007, "invalidshares": 0, "hashrateString": "621.12 KH" } }, "hashrate": 17413246.505200304, "workerCount": 2, "hashrateString": "16.61 MH" }
+    } }

@@ -1,0 +1,26 @@
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Pool</th>
+                <th>Algorithm</th>
+                <th>Workers</th>
+                <th>Pending</th>
+                <th>Confirmed</th>
+                <th>Orphaned</th>
+                <th>Hashrate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="pool in pools">
+                <td>{{pool.name}}</td>
+                <td class="text-center">{{pool.algorithm}}</tdclass>
+                <td class="text-center">{{pool.workerCount | number : 0}}</td>
+                <td class="text-center">{{pool.blocks.pending | number : 0}}</td>
+                <td class="text-center">{{pool.blocks.confirmed | number : 0}}</td>
+                <td class="text-center">{{pool.blocks.orphaned | number : 0}}</td>
+                <td class="text-center">{{pool.hashrateString}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

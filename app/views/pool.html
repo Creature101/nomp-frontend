@@ -1,0 +1,26 @@
+﻿<div class="jumbotron">
+    <h1>{{poolStats.name}}</h1>
+    <h1>{{poolStats.hashrateString}}</h1>
+    <div class="row">{{poolStats.workerCount}} Workers</div>
+    <div class="row">{{poolDetails[poolStats.name].stratum}}</div>
+</div>
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Address</th>
+                <th>Shares</th>
+                <th>Invalid Shares</th>
+                <th>Hashrate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="(username, details) in poolStats.workers">
+                <td>{{username}}</td>
+                <td class="text-center">{{details.shares | number : 0}}</td>
+                <td class ="text-center">{{details.invalidshares | number : 0}}</tdclass>
+                <td class="text-center">{{details.hashrateString}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
